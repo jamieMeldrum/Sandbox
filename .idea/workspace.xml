@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a0ab14-d3a8-4003-a089-4a35e7b17b56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changeCalculator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changeCalculator/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changeCalculator/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/changeCalculator/src/changeCalculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changeCalculator/src/ChangeCalculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/changeCalculator/src/ChangeCalculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changeCalculator/test/ChangeCalculatorTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/changeCalculator/test/ChangeCalculatorTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,23 +50,60 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="16" />
+          <entry key="dummy" value="32" />
+          <entry key="py" value="789" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Python" value="789" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/changeCalculator/src/changeCalculator.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/changeCalculator/src/ChangeCalculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="275">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/changeCalculator/test/ChangeCalculatorTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1540042633935" expanded="true" signature="198:204" ph="..." />
+                <marker date="1540042633935" expanded="true" signature="245:251" ph="..." />
+                <marker date="1540042633935" expanded="true" signature="282:283" ph="..." />
+                <marker date="1540042633935" expanded="true" signature="282:369" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="604" selection-start-line="604" selection-end-line="604" />
             </state>
           </provider>
         </entry>
@@ -92,6 +125,8 @@
       <list>
         <option value="$PROJECT_DIR$/sandbox/helloworld.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/changeCalculator/src/ChangeCalculator.py" />
+        <option value="$PROJECT_DIR$/changeCalculator/test/ChangeCalculatorTest.py" />
       </list>
     </option>
   </component>
@@ -118,6 +153,18 @@
               <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="changeCalculator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="changeCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="changeCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,6 +178,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/changeCalculator/src" />
       <recent name="$PROJECT_DIR$/changeCalculator" />
     </key>
   </component>
@@ -146,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Unittests in ChangeCalculatorTest.py">
     <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="changeCalculatorPython.git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,12 +237,60 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_multiple_coins" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/changeCalculator/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_multiple_coins&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/changeCalculator/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in ChangeCalculatorTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/changeCalculator/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/changeCalculator/test/ChangeCalculatorTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Unittests in ChangeCalculatorTest.py" />
+      <item itemvalue="Python tests.Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" />
+      <item itemvalue="Python tests.Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_multiple_coins" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in ChangeCalculatorTest.py" />
+        <item itemvalue="Python tests.Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_multiple_coins" />
+        <item itemvalue="Python tests.Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.helloworld" />
       </list>
@@ -213,15 +309,48 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_single_coin - 2018.10.20 at 14h 19m 59s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_single_coin - 2018.10.20 at 14h 21m 27s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_single_coin - 2018.10.20 at 14h 22m 44s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_single_coin - 2018.10.20 at 14h 22m 55s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_single_coin - 2018.10.20 at 14h 27m 39s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_single_coin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ChangeCalculatorTest_py - 2018.10.20 at 14h 27m 43s.xml">
+      <configuration name="Unittests in ChangeCalculatorTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_multiple_coins - 2018.10.20 at 14h 29m 53s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_multiple_coins" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ChangeCalculatorTest_ChangeCalculatorTest_test_get_change_multiple_coins - 2018.10.20 at 14h 30m 04s.xml">
+      <configuration name="Unittests for ChangeCalculatorTest.ChangeCalculatorTest.test_get_change_multiple_coins" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ChangeCalculatorTest_py - 2018.10.20 at 14h 30m 26s.xml">
+      <configuration name="Unittests in ChangeCalculatorTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ChangeCalculatorTest_py - 2018.10.20 at 14h 36m 07s.xml">
+      <configuration name="Unittests in ChangeCalculatorTest.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="106" y="-7" width="3734" height="2167" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32957458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32957458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32957458" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32957458" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32957458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -241,10 +370,31 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sandbox/__init__.py" />
     <entry file="file://$PROJECT_DIR$/sandbox/helloworld.py" />
-    <entry file="file://$PROJECT_DIR$/changeCalculator/src/changeCalculator.py">
+    <entry file="file:///usr/lib/python3.6/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changeCalculator/src/ChangeCalculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changeCalculator/test/ChangeCalculatorTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1540042633935" expanded="true" signature="198:204" ph="..." />
+            <marker date="1540042633935" expanded="true" signature="245:251" ph="..." />
+            <marker date="1540042633935" expanded="true" signature="282:283" ph="..." />
+            <marker date="1540042633935" expanded="true" signature="282:369" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
