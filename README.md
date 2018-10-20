@@ -1,2 +1,2 @@
-# changeCalculatorPython
-Python solution to simple change calculator exercise
+# Sandbox
+Sandbox for play python projects
