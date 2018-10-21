@@ -1,7 +1,7 @@
 class ChangeCalculator:
     coins = [200, 100, 50, 20, 10, 5, 2, 1]
 
-    def calculateSmallestChange(self, total):
+    def calculateSmallestChange(self, total: int):
 
         if (total < 0):
             raise ValueError("Total must be 0 or greater")
